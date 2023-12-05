@@ -1,0 +1,131 @@
+*{
+ 
+ padding: 0;
+ margin: 0;
+ box-sizing:border-box;
+   
+}
+
+body{
+  background-color:rgb(227, 218, 220);
+  font-size: 14px;
+  position: relative;
+}
+ 
+ .wrapper{
+    margin:100px auto;
+    max-width:960px;
+    display: flex;
+    flex-direction: row;
+    height:400px;
+     width:45%;
+    background-color: white;
+    border-radius:15px 15px 15px 15px;
+
+      
+ }
+ 
+ img{
+    width:280px;
+    border-radius:15px 0 0 15px;
+    height:100%;
+      
+ }
+
+ ul{
+   margin-left:30px;
+   list-style-type:none; 
+   
+ }
+
+ li:nth-child(1){
+     font-variant:small-caps;
+     font-size: 14px;
+     opacity:0.6;
+     margin-top:20px ;
+     margin-bottom:10px;
+     letter-spacing:5px;
+     font-family: Arial, Helvetica, sans-serif;
+ }
+
+ li:nth-child(2){
+  font-size: 35px;
+  font-weight:bold;
+  
+  
+ }
+
+ li:nth-child(3){
+  font-size: 35px;
+  font-weight:bold;
+  line-height:20px;
+ }
+
+ li:nth-child(4){
+  font-size: 35px;
+  font-weight:bold;
+ }
+
+ li:nth-child(5){
+  font-family:Arial, Helvetica, sans-serif ;
+  margin-top:20px;
+  opacity:0.6;
+  font-size:14px;
+  word-spacing: 5px;
+ }
+
+ li:nth-child(6){
+  font-family:Arial, Helvetica, sans-serif ;
+  opacity:0.6;
+  font-size:14px;
+  word-spacing: 5px;
+
+ }
+ li:nth-child(7){
+  font-family:Arial, Helvetica, sans-serif ;
+  opacity:0.6;
+  font-size:14px;
+  word-spacing: 5px;
+
+ }
+ li:nth-child(8){
+  font-family:Arial, Helvetica, sans-serif ;
+  opacity:0.6;
+  font-size:14px;
+  word-spacing: 5px;
+
+ }
+
+ li:nth-child(9){
+  font-size:30px;
+  font-weight:bold;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top:20px;
+  color: rgb(59, 79, 59);
+ }
+
+  .boy{
+    color: blackss;
+    text-decoration: line-through;
+    opacity:0.6;
+    font-size: 14px;
+    margin-left:10px;
+  }
+
+  li:nth-child(10){
+    margin-top: 20px;
+    padding:15px 15px;
+    background: rgb(59, 79, 59);
+    color:white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:bold;
+    font-size:14px;
+    border-radius: 6px 6px;
+  }
+
+   .fa-shopping-cart{
+    margin-right:10px;
+  }
+
+ 
